@@ -1,0 +1,55 @@
+@import url(_reset.css);
+@import url(_variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Pacifico&display=swap");
+
+body {
+  background-color: var(--secundary-color);
+  color: var(--contrast-dark-color);
+  font-family: var(--font-family-body);
+}
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+.title-page {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family-title-page);
+  font-size: var(--font-size-title-page);
+  background-color: var(--contrast-light-color);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  height: 4.75rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 800px) {
+  .container {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: calc((100vw - 900px) / 2);
+    padding-right: calc((100vw - 900px) / 2);
+  }
+}

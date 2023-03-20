@@ -1,0 +1,23 @@
+.category-list {
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.category-list__category {
+  font-weight: var(--font-size-categories);
+  background-color: var(--contrast-light-color);
+  border-radius: 3rem;
+  padding: 1rem;
+}
+
+.category-list__category--bienestar {
+  color: var(--contrast-light-color);
+  background-color: var(--cor-categoria-bienestar);
+}
+
+.category-list__category--comportamiento {
+  color: var(--contrast-light-color);
+  background-color: var(--cor-categoria-comportamiento);
+}

@@ -1,0 +1,45 @@
+:root {
+  --font-family-body: "Montserrat", sans-serif;
+  --font-family-logo: "Pacifico", cursive;
+  --font-family-title-page: "Pacifico", cursive;
+
+  --font-input: 300;
+  --font-card: 500;
+  --font-size-categories: 500;
+  --font-size-menu-header-item: 500;
+
+  --font-logo: 1.75rem;
+  --font-size-card-title: 1.75rem;
+
+  --font-size-card-post-title: 1.375rem;
+  --font-size-input-label: 1.25rem;
+
+  --font-size-button: 1.375rem;
+  --font-size-form-fieldset: 1.375rem;
+
+  --font-table-header: 1.375rem;
+  --font-size-title-page: 1.75rem;
+  --font-size-menu-header-item: 1.2rem;
+
+  --font-size-not-found: 1.25rem;
+
+  --primary-color: #0071ea;
+  --secundary-color: #d6eaff;
+  --contrast-dark-color: #4d4d4d;
+  --contrast-light-color: #fff;
+  --cor-divisao: #dadada;
+  --danger-color: #df2525;
+  --success-color: #46bb42;
+
+  --cor-categoria-bienestar: #ff4949;
+  --cor-categoria-comportamiento: #368dff;
+
+  --shadow: 0 5px 10px #55a6ff38;
+}
+
+@media (min-width: 800px) {
+  :root {
+    --font-logo: 2.5rem;
+    --font-size-menu-header-item: 1rem;
+  }
+}
